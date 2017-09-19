@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"/>
+    <link href="/css/bootstrap.min.css" rel="stylesheet"/>
+    <title>Production</title>
+  </head>
+  <body>
+  <table id="groupsTable" class="table table-bordered table-striped">
+    <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th class="text-right">Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>2</td>
+      <td><a href="/admin/settings/group/2">ADMINS</a></td>
+      <td></td>
+      <td class="text-right">
+        <div class="btn-group">
+          <button type="button" class="btn btn-sm btn-info">Action</button>
+          <button type="button" class="btn btn-sm btn-info dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="/admin/settings/group/2"><i class="fa fa-eye"></i>Show ADMINS</a></li>
+            <li><a href="/admin/settings/group/2/edit"><i class="fa fa-edit"></i>Edit ADMINS</a></li><li class="divider"></li>
+            <li><a href="#"><i class="fa fa-trash"></i>Delete ADMINS</a></li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td><a href="/admin/settings/group/1">GOD</a></td>
+      <td></td>
+      <td class="text-right">
+        <div class="btn-group">
+          <button type="button" class="btn btn-sm btn-info">Action</button>
+          <button type="button" class="btn btn-sm btn-info dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span><span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="/admin/settings/group/1"><i class="fa fa-eye"></i>Show GOD</a></li>
+            <li><a href="/admin/settings/group/1/edit"><i class="fa fa-edit"></i>Edit GOD</a></li>
+            <li class="divider"></li><li><a href="#"><i class="fa fa-trash"></i>Delete GOD</a></li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td><a href="/admin/settings/group/3">USERS</a></td>
+      <td></td>
+      <td class="text-right">
+        <div class="btn-group">
+          <button type="button" class="btn btn-sm btn-info">Action</button>
+          <button type="button" class="btn btn-sm btn-info dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="/admin/settings/group/3"><i class="fa fa-eye"></i>Show USERS</a></li>
+            <li><a href="/admin/settings/group/3/edit"><i class="fa fa-edit"></i>Edit USERS</a></li>
+            <li class="divider"></li><li><a href="#"><i class="fa fa-trash"></i>Delete USERS</a></li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th class="text-right">Action</th>
+    </tr>
+    </tfoot>
+  </table>
+  <script type="text/javascript" src="app.bundle.js"></script></body>
+</html>
